@@ -35,7 +35,7 @@ section#sobre-mi {
 
 .btn-cv {
     padding: 10px 15px;
-    background-color: #0077b5;
+    background-color: #000000;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -45,7 +45,7 @@ section#sobre-mi {
 }
 
 .btn-cv:hover {
-    background-color: #005582;
+    background-color: #444444;
 }
 
 .linkedin-profile {
