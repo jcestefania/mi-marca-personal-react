@@ -1,19 +1,25 @@
-import React from 'react';
-import './styles/About.css';
-import image from '../assets/img/image.png';
+import React from "react";
+import "./styles/About.css";
+import image from "../assets/img/image.png";
 
 function About() {
   return (
     <section id="sobre-mi">
       <h2>Sobre mí</h2>
       <div className="about-container">
-        <img src={image} alt="Juan Carlos Estefanía Ovejero" className="profile-photo" />
+        <img
+          src={image}
+          alt="Juan Carlos Estefanía Ovejero"
+          className="profile-photo"
+        />
         <div>
           <p>
-            Hola, soy Juan Carlos Estefanía. Soy estudiante de Ingeniería Informática en la etapa final de mi 
-            formación, con experiencia en proyectos relacionados con inteligencia artificial, machine learning y 
-            redes neuronales, así como en el desarrollo de soluciones tecnológicas innovadoras. Aquí encontrarás 
-            información sobre mis proyectos y habilidades.
+            Hola, soy Juan Carlos Estefanía. Soy estudiante de Ingeniería
+            Informática en la etapa final de mi formación, con experiencia en
+            proyectos relacionados con inteligencia artificial, machine learning
+            y redes neuronales, así como en el desarrollo de soluciones
+            tecnológicas innovadoras. Aquí encontrarás información sobre mis
+            proyectos y habilidades.
           </p>
         </div>
       </div>
@@ -21,21 +27,22 @@ function About() {
       {/* Botones del CV */}
       <div className="cv-section">
         <a
-            href={`${process.env.PUBLIC_URL}/src/assets/cv/JuanCarlos_Estefania_CV.pdf`}
-            download="JuanCarlos_Estefania_CV.pdf"
-            className="btn-cv"
+          href={`${process.env.PUBLIC_URL}/cv/JuanCarlos_Estefania_CV.pdf`}
+          download="JuanCarlos_Estefania_CV.pdf"
+          className="btn-cv"
         >
-            Descargar CV
+          Descargar CV
         </a>
+
         <a
-            href={`${process.env.PUBLIC_URL}/src/assets/cv/JuanCarlos_Estefania_CV.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-cv"
+          href={`${process.env.PUBLIC_URL}/cv/JuanCarlos_Estefania_CV.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-cv"
         >
-            Ver CV
+          Ver CV
         </a>
-        </div>
+      </div>
 
       {/* Perfil de LinkedIn */}
       <div className="linkedin-profile">
