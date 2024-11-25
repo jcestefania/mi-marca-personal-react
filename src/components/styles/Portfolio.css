@@ -1,27 +1,44 @@
+.portfolio-container {
+    background: #fff; /* Fondo blanco */
+    margin: 20px auto; /* Centrado horizontal y margen vertical */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 900px; /* Ancho máximo */
+    text-align: center;
+}
+
+.portfolio-container h2 {
+    margin-bottom: 20px; /* Espaciado inferior del título */
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 900px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    gap: 20px; /* Espaciado entre proyectos */
 }
 
 .project {
     background: white;
     padding: 15px;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra de los proyectos */
     text-align: center;
 }
 
 .project h3 {
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Espaciado inferior del título del proyecto */
+}
+
+.project p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
 }
 
 .project a {
@@ -31,5 +48,5 @@
 }
 
 .project a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Subrayado al pasar el ratón */
 }
