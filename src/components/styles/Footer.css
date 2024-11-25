@@ -1,10 +1,32 @@
 footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
-    font-size: 0.8em;
-}
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 15px; /* Espaciado entre los logos */
+  }
+  
+  footer .social-icon {
+    width: 30px; /* Ajusta el tamaño según prefieras */
+    height: 30px;
+    transition: transform 0.2s ease-in-out; /* Efecto al pasar el ratón */
+  }
+  
+  footer .social-icon:hover {
+    transform: scale(1.1); /* Aumenta un poco el tamaño al pasar el ratón */
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
 
 @media (max-width: 768px) {
     footer {
