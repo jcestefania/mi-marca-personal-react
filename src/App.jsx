@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from './components/Header'; // Ruta relativa correcta
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/ContactForm';
