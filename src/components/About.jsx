@@ -21,14 +21,14 @@ function About() {
       {/* Botones del CV */}
       <div className="cv-section">
         <a
-            href={`${process.env.PUBLIC_URL}/assets/cv/JuanCarlos_Estefania_CV.pdf`}
+            href={`${process.env.PUBLIC_URL}/src/assets/cv/JuanCarlos_Estefania_CV.pdf`}
             download="JuanCarlos_Estefania_CV.pdf"
             className="btn-cv"
         >
             Descargar CV
         </a>
         <a
-            href={`${process.env.PUBLIC_URL}/assets/cv/JuanCarlos_Estefania_CV.pdf`}
+            href={`${process.env.PUBLIC_URL}/src/assets/cv/JuanCarlos_Estefania_CV.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-cv"
