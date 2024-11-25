@@ -1,47 +1,46 @@
 section#sobre-mi {
     background: #fff;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section#sobre-mi h2 {
-    color: #444;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-weight: 700;
-}
-
-/* Contenedor principal para la imagen y la descripción */
 .about-container {
     display: flex;
     align-items: center;
-    gap: 20px; /* Espaciado entre la foto y el texto */
+    gap: 20px;
+    text-align: left;
     margin-top: 20px;
 }
 
-/* Estilo para la foto de perfil */
 .profile-photo {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Hace que la foto sea circular */
-    object-fit: cover; /* Ajusta la imagen al contenedor */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la imagen */
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Botones para descargar y ver el CV */
+.cv-section {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 15px; /* Espaciado entre los botones */
+    margin-top: 15px;
+}
+
 .btn-cv {
-    display: inline-block;
-    margin-right: 10px;
     padding: 10px 15px;
     background-color: #0077b5;
-    color: #fff;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 1rem;
     transition: background-color 0.3s ease;
 }
 
@@ -49,18 +48,18 @@ section#sobre-mi h2 {
     background-color: #005582;
 }
 
-/* Diseño responsivo */
+/* Ajustes responsivos */
 @media (max-width: 768px) {
     section#sobre-mi {
-        padding: 10px;
+        padding: 15px;
     }
 
     .about-container {
-        flex-direction: column; /* Apila la foto y el texto en dispositivos pequeños */
-        text-align: center; /* Centra el contenido */
+        flex-direction: column; /* Apila la imagen y texto en dispositivos pequeños */
+        text-align: center;
     }
 
     .profile-photo {
-        margin-bottom: 15px; /* Espaciado entre la foto y el texto */
+        margin-bottom: 15px;
     }
 }

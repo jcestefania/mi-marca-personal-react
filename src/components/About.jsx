@@ -1,23 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './styles/About.css';
-import image from '../assets/img/image.png'; // Ruta relativa para importar la imagen
+import image from '../assets/img/image.png';
 
 function About() {
-  const [showDescription, setShowDescription] = useState(true);
-
   return (
     <section id="sobre-mi">
       <h2>Sobre mí</h2>
       <div className="about-container">
-        {/* Imagen añadida */}
         <img src={image} alt="Juan Carlos Estefanía Ovejero" className="profile-photo" />
         <div>
-          <p style={{ display: showDescription ? 'block' : 'none' }}>
+          <p>
             Hola, soy Juan Carlos Estefanía. Soy estudiante de Ingeniería Informática...
           </p>
-          <button onClick={() => setShowDescription(!showDescription)}>
-            {showDescription ? 'Ocultar información' : 'Mostrar información'}
-          </button>
         </div>
       </div>
       <div className="cv-section">
