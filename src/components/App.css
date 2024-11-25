@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+/* Estilos globales y reseteos */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  background: #f4f4f4;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilos para encabezados que se usen a través de la app */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333; /* o cualquier color que prefieras */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estilos básicos para botones y formularios */
+button, input, textarea {
+  font-family: inherit;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+  background-color: #005582;
+  color: #fff;
+  border-color: #004466;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Respuestas a media query para mejor visualización en dispositivos móviles */
+@media (max-width: 768px) {
+  h1, h2, h3 {
+      font-size: 1.5em; /* Ajusta según necesidad */
   }
 }

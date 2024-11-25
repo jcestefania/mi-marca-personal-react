@@ -1,0 +1,66 @@
+section#sobre-mi {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+section#sobre-mi h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Contenedor principal para la imagen y la descripción */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaciado entre la foto y el texto */
+    margin-top: 20px;
+}
+
+/* Estilo para la foto de perfil */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Hace que la foto sea circular */
+    object-fit: cover; /* Ajusta la imagen al contenedor */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la imagen */
+}
+
+/* Botones para descargar y ver el CV */
+.btn-cv {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #0077b5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cv:hover {
+    background-color: #005582;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    section#sobre-mi {
+        padding: 10px;
+    }
+
+    .about-container {
+        flex-direction: column; /* Apila la foto y el texto en dispositivos pequeños */
+        text-align: center; /* Centra el contenido */
+    }
+
+    .profile-photo {
+        margin-bottom: 15px; /* Espaciado entre la foto y el texto */
+    }
+}
