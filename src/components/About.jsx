@@ -20,13 +20,22 @@ function About() {
 
       {/* Botones del CV */}
       <div className="cv-section">
-        <a href="/assets/cv/JuanCarlos_Estefania_CV.pdf" download="JuanCarlos_Estefania_CV.pdf" className="btn-cv">
-          Descargar CV
+        <a
+            href={`${process.env.PUBLIC_URL}/assets/cv/JuanCarlos_Estefania_CV.pdf`}
+            download="JuanCarlos_Estefania_CV.pdf"
+            className="btn-cv"
+        >
+            Descargar CV
         </a>
-        <a href="/assets/cv/JuanCarlos_Estefania_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn-cv">
-          Ver CV
+        <a
+            href={`${process.env.PUBLIC_URL}/assets/cv/JuanCarlos_Estefania_CV.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-cv"
+        >
+            Ver CV
         </a>
-      </div>
+        </div>
 
       {/* Perfil de LinkedIn */}
       <div className="linkedin-profile">
