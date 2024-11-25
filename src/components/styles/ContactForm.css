@@ -32,6 +32,7 @@ form button {
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Suaviza el cambio de color */
 }
 
 form button:hover {
