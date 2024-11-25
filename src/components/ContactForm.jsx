@@ -29,7 +29,7 @@ function ContactForm() {
     <section id="contacta-conmigo">
       <h2>Contacta conmigo</h2>
       <form ref={form} onSubmit={handleSubmit}>
-        <label htmlFor="name">Nombre y Apellido:</label>
+        <label htmlFor="name">Nombre completo:</label>
         <input
           type="text"
           id="name"
