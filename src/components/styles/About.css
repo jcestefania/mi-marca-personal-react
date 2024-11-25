@@ -48,6 +48,37 @@ section#sobre-mi {
     background-color: #005582;
 }
 
+.linkedin-profile {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f9f9f9; /* Fondo claro */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-profile h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.linkedin-profile p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.linkedin-profile a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linkedin-profile a:hover {
+    text-decoration: underline;
+}
+
+
 /* Ajustes responsivos */
 @media (max-width: 768px) {
     section#sobre-mi {
