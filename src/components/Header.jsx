@@ -4,7 +4,9 @@ import './styles/Header.css';
 function Header() {
   return (
     <header>
-      <h1>Juan Carlos Estefanía Ovejero</h1>
+      <div className="header-title">
+        <h1>Juan Carlos Estefanía Ovejero</h1>
+      </div>
       <nav>
         <ul>
           <li><a href="#sobre-mi">Sobre mí</a></li>
