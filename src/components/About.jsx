@@ -10,7 +10,10 @@ function About() {
         <img src={image} alt="Juan Carlos Estefanía Ovejero" className="profile-photo" />
         <div>
           <p>
-            Hola, soy Juan Carlos Estefanía. Soy estudiante de Ingeniería Informática en la etapa final de mi formación, con experiencia en proyectos relacionados con inteligencia artificial, machine learning y redes neuronales, así como en el desarrollo de soluciones tecnológicas innovadoras. Aquí encontrarás información sobre mis proyectos y habilidades.
+            Hola, soy Juan Carlos Estefanía. Soy estudiante de Ingeniería Informática en la etapa final de mi 
+            formación, con experiencia en proyectos relacionados con inteligencia artificial, machine learning y 
+            redes neuronales, así como en el desarrollo de soluciones tecnológicas innovadoras. Aquí encontrarás 
+            información sobre mis proyectos y habilidades.
           </p>
         </div>
       </div>

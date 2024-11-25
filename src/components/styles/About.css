@@ -49,13 +49,19 @@ section#sobre-mi {
 }
 
 .linkedin-profile {
-    margin-top: 20px;
-    padding: 20px;
+    display: block; /* Asegura que sea un contenedor bloque */
+    width: 100%; /* Usa todo el ancho del contenedor */
+    /*width: fit-content; /* Ajusta el ancho automáticamente al contenido */
+    max-width: 850px; /* Limita el tamaño máximo */
+    margin: 40px auto; /* Centra la caja horizontalmente y agrega espacio superior/inferior */
+    padding: 20px; /* Espaciado interno */
     background: #f9f9f9; /* Fondo claro */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Alinea el texto en el centro */
 }
+
 
 .linkedin-profile h3 {
     margin: 0 0 10px;
@@ -77,6 +83,7 @@ section#sobre-mi {
 .linkedin-profile a:hover {
     text-decoration: underline;
 }
+
 
 
 /* Ajustes responsivos */
