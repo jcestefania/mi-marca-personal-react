@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import $ from "jquery"; // Importa jQuery instalado desde npm
 import "./styles/Portfolio.css";
 
 function Portfolio() {
@@ -8,12 +9,12 @@ function Portfolio() {
     const username = "jcestefania"; // Tu nombre de usuario en GitHub
     const url = `https://api.github.com/users/${username}`;
 
-    // Usar jQuery para realizar la llamada AJAX
-    window.$.ajax({
+    // Llamada AJAX con jQuery
+    $.ajax({
       url: url,
       method: "GET",
       success: function (data) {
-        setGithubData(data);
+        setGithubData(data); // Actualiza el estado de React
       },
       error: function () {
         console.error("No se pudo obtener la información del perfil de GitHub.");
@@ -48,8 +49,8 @@ function Portfolio() {
       {/* Proyectos */}
       <div className="projects">
         <div className="project">
-          <h3>Spotify Song Recommender</h3>
-          <p>SpotifySongRecommender is a C++ project for analyzing and recommending songs. It includes features like recommending songs and artists based on musical genres, and generating popularity rankings by artist or genre.</p>
+          <h3>Proyecto 1</h3>
+          <p>Descripción del proyecto 1</p>
           <a
             href="https://github.com/jcestefania/SpotifySongRecommender"
             target="_blank"
@@ -59,8 +60,8 @@ function Portfolio() {
           </a>
         </div>
         <div className="project">
-          <h3>Pathfinding Algorithm using A Star in a 2D Matrix</h3>
-          <p>This Python project implements the A* algorithm to find the optimal path in a randomly generated 2D matrix with obstacles. It allows users to choose between Manhattan and Euclidean distances for the pathfinding process. The matrix, along with the calculated path, is displayed on the console.</p>
+          <h3>Proyecto 2</h3>
+          <p>Descripción del proyecto 2</p>
           <a
             href="https://github.com/jcestefania/Pathfinding-Algorithm-using-A-Star-in-a-2D-Matrix"
             target="_blank"
@@ -70,8 +71,8 @@ function Portfolio() {
           </a>
         </div>
         <div className="project">
-          <h3>Machine Learning client project</h3>
-          <p>Análisis de datos para un cliente usando machine learning.</p>
+          <h3>Proyecto 3</h3>
+          <p>Descripción del proyecto 3</p>
           <a
             href="https://github.com/jcestefania/machine-learning-client-project"
             target="_blank"
