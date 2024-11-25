@@ -1,44 +1,67 @@
-.portfolio-container {
-    background: #fff; /* Fondo blanco */
-    margin: 20px auto; /* Centrado horizontal y margen vertical */
+#portfolio {
+    background: #fff;
+    margin: 20px auto;
     padding: 20px;
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    max-width: 900px; /* Ancho máximo */
-    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
 }
 
-.portfolio-container h2 {
-    margin-bottom: 20px; /* Espaciado inferior del título */
-    font-size: 2rem;
-    font-weight: bold;
+.github-profile {
+    margin-bottom: 30px; /* Añade separación con los proyectos */
+    padding: 20px;
+    background: #f9f9f9; /* Fondo claro */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.github-profile h3 {
+    margin: 0 0 10px;
+    font-size: 1.4rem;
     color: #333;
 }
 
+.github-profile p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.github-profile a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.github-profile a:hover {
+    text-decoration: underline;
+}
+
 .projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px; /* Espaciado entre proyectos */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centra los proyectos */
 }
 
 .project {
-    background: white;
+    flex: 1 1 calc(30% - 20px); /* Ajusta el ancho de los proyectos */
+    background: #f9f9f9;
     padding: 15px;
     border: 1px solid #ddd;
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra de los proyectos */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .project h3 {
+    margin: 10px 0;
     font-size: 1.2rem;
-    margin-bottom: 10px; /* Espaciado inferior del título del proyecto */
+    color: #333;
 }
 
 .project p {
-    font-size: 0.9rem;
-    color: #666;
-    margin-bottom: 15px;
+    margin: 10px 0;
+    color: #555;
 }
 
 .project a {
@@ -48,5 +71,5 @@
 }
 
 .project a:hover {
-    text-decoration: underline; /* Subrayado al pasar el ratón */
+    text-decoration: underline;
 }

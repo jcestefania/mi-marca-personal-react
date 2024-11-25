@@ -1,7 +1,7 @@
 /* Estilos para encabezados */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  color: #333; /* Puedes ajustar el color */
+  color: #333; /* Ajustar el color */
 }
 
 /* Estilos básicos para botones y formularios */
@@ -21,6 +21,6 @@ button:hover {
 /* Diseño responsivo */
 @media (max-width: 768px) {
   h1, h2, h3 {
-    font-size: 1.5em; /* Ajusta según sea necesario */
+    font-size: 1.5em; /* Ajustar según sea necesario */
   }
 }

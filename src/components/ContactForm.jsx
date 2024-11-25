@@ -7,8 +7,8 @@ function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = "service_y21rwxb"; // Sustituye con tu Service ID
-    const templateID = "template_5ftku8q"; // Sustituye con tu Template ID
+    const serviceID = "service_y21rwxb";
+    const templateID = "template_5ftku8q";
 
     window.emailjs
       .sendForm(serviceID, templateID, form.current)
