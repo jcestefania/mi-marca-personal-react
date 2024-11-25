@@ -1,17 +1,7 @@
-/* Estilos globales y reseteos */
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  background: #f4f4f4;
-  color: #333;
-}
-
-/* Estilos para encabezados que se usen a través de la app */
+/* Estilos para encabezados */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  color: #333; /* o cualquier color que prefieras */
+  color: #333; /* Puedes ajustar el color */
 }
 
 /* Estilos básicos para botones y formularios */
@@ -28,9 +18,9 @@ button:hover {
   border-color: #004466;
 }
 
-/* Respuestas a media query para mejor visualización en dispositivos móviles */
+/* Diseño responsivo */
 @media (max-width: 768px) {
   h1, h2, h3 {
-      font-size: 1.5em; /* Ajusta según necesidad */
+    font-size: 1.5em; /* Ajusta según sea necesario */
   }
 }
