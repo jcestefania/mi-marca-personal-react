@@ -24,9 +24,16 @@
 }
 
 .github-profile h3 {
-    margin: 0 0 10px;
+    margin: 0 0 20px;
     font-size: 1.4rem;
     color: #333;
+}
+
+.github-logo {
+    width: 24px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantén proporciones */
+    margin-right: 8px; /* Espaciado entre el logo y el texto */
+    vertical-align: middle; /* Alinea el logo con el texto */
 }
 
 .github-profile p {
@@ -38,6 +45,8 @@
     color: #0077b5;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 20px; /* Separa el botón del texto anterior */
+    display: inline-block; /* Asegura que el margen se aplique correctamente */
 }
 
 .github-profile a:hover {

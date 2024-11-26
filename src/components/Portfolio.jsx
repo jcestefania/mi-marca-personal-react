@@ -29,7 +29,10 @@ function Portfolio() {
       {/* Perfil de GitHub */}
       {githubData ? (
         <div className="github-profile">
-          <h3>Perfil de GitHub</h3>
+          <h3>
+            <img src={require('../assets/img/github.png')} alt="Logo de GitHub" className="github-logo" />
+              Perfil de GitHub
+          </h3>
           <p>Nombre: {githubData.name}</p>
           <p>Repositorios públicos: {githubData.public_repos}</p>
           <p>
