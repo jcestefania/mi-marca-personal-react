@@ -98,5 +98,5 @@ npm start
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
 - **Email:** juancarloseovejero@gmail.com
-- **LinkedIn:** [Juan Carlos Estefanía](https://www.linkedin.com/in/juan-carlos-estefan%C3%ADa-ovejero-b4b8862b3/)
+- **LinkedIn:** [Juan Carlos Estefanía Ovejero](https://www.linkedin.com/in/juan-carlos-estefan%C3%ADa-ovejero-b4b8862b3/)
 - **GitHub:** [jcestefania](https://github.com/jcestefania)
