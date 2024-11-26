@@ -68,16 +68,19 @@ Clona el repositorio:
 ```bash
 git clone https://github.com/jcestefania/mi-marca-personal-react.git
 cd mi-marca-personal-react
+```
 
 Instala las dependencias:
 
 ```bash
 npm install
+```
 
 Ejecuta el proyecto en local:
 
 ```bash
 npm start
+```
 
 ---
 
