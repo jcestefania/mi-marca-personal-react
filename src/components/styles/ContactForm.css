@@ -7,10 +7,15 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+#contacta-conmigo h2 {
+    margin-bottom: 50px; /* Ajusta este valor según sea necesario */
+}
+
 form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-bottom: 20px;
 }
 
 form label {
@@ -34,6 +39,15 @@ form button {
     cursor: pointer;
     transition: background-color 0.3s ease; /* Suaviza el cambio de color */
 }
+
+/* Estilos básicos para botones y formularios */
+button, input, textarea {
+    font-family: inherit;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    
+  }
 
 form button:hover {
     background-color: #444444;

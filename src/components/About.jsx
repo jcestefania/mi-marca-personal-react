@@ -5,7 +5,7 @@ import image from "../assets/img/image.png";
 function About() {
   return (
     <section id="sobre-mi">
-      <h2>Sobre mí</h2>
+      <h1>Sobre mí</h1>
       <div className="about-container">
         <img
           src={image}
