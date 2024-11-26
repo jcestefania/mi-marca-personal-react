@@ -50,7 +50,7 @@ section#sobre-mi {
 
 .linkedin-profile {
     display: block; /* Asegura que sea un contenedor bloque */
-    width: 100%; /* Usa todo el ancho del contenedor */
+    /*width: 100%; /* Usa todo el ancho del contenedor */
     width: fit-content; /* Ajusta el ancho automáticamente al contenido */
     max-width: 850px; /* Limita el tamaño máximo */
     margin: 40px auto; /* Centra la caja horizontalmente y agrega espacio superior/inferior */
@@ -61,7 +61,6 @@ section#sobre-mi {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
     text-align: center; /* Alinea el texto en el centro */
 }
-
 
 .linkedin-profile h3 {
     margin: 0 0 10px;

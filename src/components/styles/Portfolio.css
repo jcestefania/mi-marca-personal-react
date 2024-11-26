@@ -12,17 +12,16 @@
     flex-direction: column; /* Alinea los elementos en columna */
     justify-content: center; /* Centra verticalmente */
     align-items: center; /* Centra horizontalmente */
-    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    width: fit-content; /* Asegura que ocupe todo el ancho disponible */
     max-width: 850px; /* Limita el ancho máximo */
-    margin: 20px auto; /* Centra la caja horizontalmente */
-    padding: 20px; /* Espaciado interno */
+    margin: 30px auto; /* Centra la caja horizontalmente */
+    padding: 40px; /* Espaciado interno */
     background: #f9f9f9; /* Fondo claro */
     border: 1px solid #ddd; /* Borde gris claro */
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
     text-align: center; /* Alinea el texto en el centro */
 }
-
 
 .github-profile h3 {
     margin: 0 0 10px;
@@ -81,4 +80,18 @@
 
 .project a:hover {
     text-decoration: underline;
+}
+
+
+/* Ajuste para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .projects {
+        flex-direction: column; /* Cambia a columna para apilar los proyectos */
+        align-items: center; /* Centra los proyectos en la columna */
+    }
+
+    .project {
+        flex: 1 1 100%; /* Ocupa todo el ancho disponible */
+        max-width: 90%; /* Limita el ancho máximo al 90% de la pantalla */
+    }
 }
