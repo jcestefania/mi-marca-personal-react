@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mi-marca-personal-react/static/css/main.3246f3d2.css",
+    "main.css": "/mi-marca-personal-react/static/css/main.2b9aca38.css",
     "main.js": "/mi-marca-personal-react/static/js/main.78028845.js",
     "static/media/image.png": "/mi-marca-personal-react/static/media/image.fc16b6e48ecd6d223453.png",
     "static/media/github_white.jpg": "/mi-marca-personal-react/static/media/github_white.ceb5247cda37a930d454.jpg",
     "index.html": "/mi-marca-personal-react/index.html",
-    "main.3246f3d2.css.map": "/mi-marca-personal-react/static/css/main.3246f3d2.css.map",
+    "main.2b9aca38.css.map": "/mi-marca-personal-react/static/css/main.2b9aca38.css.map",
     "main.78028845.js.map": "/mi-marca-personal-react/static/js/main.78028845.js.map"
   },
   "entrypoints": [
-    "static/css/main.3246f3d2.css",
+    "static/css/main.2b9aca38.css",
     "static/js/main.78028845.js"
   ]
 }
