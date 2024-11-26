@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Mi Marca Personal - Juan Carlos Estefanía
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es mi proyecto de marca personal desarrollado con React, diseñado para mostrar mi experiencia, proyectos y permitir a las personas contactarme fácilmente.
 
-## Available Scripts
+## 🚀 Demo en vivo
 
-In the project directory, you can run:
+Puedes ver el sitio en vivo en GitHub Pages: [Mi Marca Personal](https://jcestefania.github.io/mi-marca-personal-react/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📑 Descripción
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este proyecto incluye:
 
-### `npm test`
+- **Sección Sobre mí:** Información personal y profesional, con enlaces para descargar y ver mi CV.
+- **Portfolio:** Visualización de proyectos destacados con enlaces directos a sus repositorios de GitHub.
+- **Sección Contacto:** Formulario funcional con integración de EmailJS para recibir mensajes.
+- **Footer:** Enlaces a mis perfiles de LinkedIn y GitHub con iconos interactivos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tecnologías utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Librería principal para el desarrollo del proyecto.
+- **CSS**: Estilos personalizados para un diseño minimalista y responsivo.
+- **EmailJS**: Servicio para el envío de mensajes desde el formulario de contacto.
+- **GitHub Pages**: Para la publicación del proyecto en línea.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Estructura del proyecto
 
-### `npm run eject`
+```plaintext
+mi-marca-personal-react/
+├── public/
+│   ├── index.html        # Punto de entrada HTML
+│   ├── cv/               # Carpeta para el CV
+│   │   └── JuanCarlos_Estefania_CV.pdf
+├── src/
+│   ├── components/       # Componentes React
+│   │   ├── About.jsx     # Sección Sobre mí
+│   │   ├── Portfolio.jsx # Sección Portfolio
+│   │   ├── ContactForm.jsx # Sección Contacta conmigo
+│   │   ├── Footer.jsx    # Footer con redes sociales
+│   │   ├── Header.jsx    # Encabezado del sitio
+│   │   
+│   ├── styles/           # Archivos de estilo CSS
+│   │   ├── About.css
+│   │   ├── Portfolio.css
+│   │   ├── ContactForm.css # Estilos para el formulario de contacto
+│   │   ├── Footer.css
+│   │   ├── Header.css    # Estilos para el encabezado
+│   │   
+│   ├── App.jsx           # Punto principal de la aplicación
+│   ├── App.css
+│   ├── index.js
+│   ├── index.css
+│
+└── package.json          # Dependencias y scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Instalación y configuración
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clona el repositorio:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/jcestefania/mi-marca-personal-react.git
+cd mi-marca-personal-react
 
-## Learn More
+Instala las dependencias:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ejecuta el proyecto en local:
 
-### Code Splitting
+```bash
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## ✨ Funcionalidades
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Enlace al CV:** Los botones permiten descargar o visualizar el CV directamente.
+- **Proyectos destacados:** Cada proyecto incluye una breve descripción y un enlace al repositorio.
+- **Formulario de contacto:** Envío de mensajes vía EmailJS.
+- **Enlaces sociales:** Iconos interactivos para acceder a mis perfiles en LinkedIn y GitHub.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📬 Contacto
 
-### Advanced Configuration
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Email:** juancarloseovejero@gmail.com
+- **LinkedIn:** [Juan Carlos Estefanía](https://www.linkedin.com/in/juan-carlos-estefan%C3%ADa-ovejero-b4b8862b3/)
+- **GitHub:** [jcestefania](https://github.com/jcestefania)
