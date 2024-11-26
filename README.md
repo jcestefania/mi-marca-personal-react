@@ -57,6 +57,7 @@ mi-marca-personal-react/
 │   ├── index.css
 │
 └── package.json          # Dependencias y scripts
+```
 
 ---
 
