@@ -51,10 +51,10 @@ section#sobre-mi {
 .linkedin-profile {
     display: block; /* Asegura que sea un contenedor bloque */
     width: 100%; /* Usa todo el ancho del contenedor */
-    /*width: fit-content; /* Ajusta el ancho automáticamente al contenido */
+    width: fit-content; /* Ajusta el ancho automáticamente al contenido */
     max-width: 850px; /* Limita el tamaño máximo */
     margin: 40px auto; /* Centra la caja horizontalmente y agrega espacio superior/inferior */
-    padding: 20px; /* Espaciado interno */
+    padding: 50px; /* Espaciado interno */
     background: #f9f9f9; /* Fondo claro */
     border: 1px solid #ddd; /* Borde gris claro */
     border-radius: 8px; /* Bordes redondeados */
