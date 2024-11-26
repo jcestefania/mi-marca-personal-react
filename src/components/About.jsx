@@ -46,7 +46,10 @@ function About() {
 
       {/* Perfil de LinkedIn */}
       <div className="linkedin-profile">
-        <h3>Perfil de LinkedIn</h3>
+        <h3>
+        <img src={require('../assets/img/linkedin.png')} alt="Logo de LinkedIn" className="linkedin-logo" />
+          Perfil de LinkedIn
+          </h3>
         <p>Nombre: Juan Carlos Estefanía Ovejero</p>
         <p>
           <a
