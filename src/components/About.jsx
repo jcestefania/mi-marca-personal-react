@@ -1,8 +1,30 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./styles/About.css";
 import image from "../assets/img/image.png";
 
 function About() {
+  const linkedinRef = useRef(null);
+
+  // Maneja el movimiento del cursor
+  const handleMouseMove = (event) => {
+    const rect = linkedinRef.current.getBoundingClientRect();
+    const x = event.clientX - rect.left; // Posición del cursor dentro de la caja (X)
+    const y = event.clientY - rect.top; // Posición del cursor dentro de la caja (Y)
+
+    const centerX = rect.width / 2; // Centro horizontal de la caja
+    const centerY = rect.height / 2; // Centro vertical de la caja
+
+    const rotateX = ((y - centerY) / centerY) * 10; // Rotación vertical
+    const rotateY = ((x - centerX) / centerX) * -10; // Rotación horizontal (negativo para invertir)
+
+    linkedinRef.current.style.transform = `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+  };
+
+  // Restaura la posición al salir de la caja
+  const handleMouseLeave = () => {
+    linkedinRef.current.style.transform = "perspective(600px) rotateX(0deg) rotateY(0deg)";
+  };
+
   return (
     <section id="sobre-mi">
       <h1>Sobre mí</h1>
@@ -45,9 +67,18 @@ function About() {
       </div>
 
       {/* Perfil de LinkedIn */}
-      <div className="linkedin-profile">
+      <div
+        className="linkedin-profile"
+        ref={linkedinRef}
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+      >
         <h3>
-        <img src={require('../assets/img/linkedin.png')} alt="Logo de LinkedIn" className="linkedin-logo" />
+          <img
+            src={require("../assets/img/linkedin.png")}
+            alt="Logo de LinkedIn"
+            className="linkedin-logo"
+          />
           Perfil de LinkedIn
         </h3>
         <p>Nombre: Juan Carlos Estefanía Ovejero</p>

@@ -53,18 +53,23 @@ section#sobre-mi h1{
 }
 
 .linkedin-profile {
-    display: block; /* Asegura que sea un contenedor bloque */
-    /*width: 100%; /* Usa todo el ancho del contenedor */
-    width: fit-content; /* Ajusta el ancho automáticamente al contenido */
-    max-width: 850px; /* Limita el tamaño máximo */
-    margin: 40px auto; /* Centra la caja horizontalmente y agrega espacio superior/inferior */
-    padding: 50px; /* Espaciado interno */
-    background: #f9f9f9; /* Fondo claro */
-    border: 1px solid #ddd; /* Borde gris claro */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
-    text-align: center; /* Alinea el texto en el centro */
+    display: block;
+    width: fit-content;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 50px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
     margin-bottom: 20px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease; /* Transición suave */
+    transform: perspective(600px); /* Perspectiva para el efecto 3D */
+}
+
+.linkedin-profile:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
 }
 
 .linkedin-profile h3 {
@@ -82,8 +87,8 @@ section#sobre-mi h1{
     color: #0077b5;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 20px; /* Agrega margen superior */
-    display: inline-block; /* Asegurarse de que los márgenes sean efectivos */
+    margin-top: 20px;
+    display: inline-block;
 }
 
 .linkedin-profile a:hover {
@@ -91,10 +96,10 @@ section#sobre-mi h1{
 }
 
 .linkedin-logo {
-    width: 25px; /* Tamaño compacto para el diseño minimalista */
-    height: auto; /* Mantiene las proporciones del logo */
-    margin-right: 10px; /* Espacio entre el logo y el título */
-    vertical-align: middle; /* Alinea verticalmente con el texto */
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 

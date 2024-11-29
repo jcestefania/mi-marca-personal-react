@@ -6,7 +6,7 @@ function Portfolio() {
   const [githubData, setGithubData] = useState(null);
 
   useEffect(() => {
-    const username = "jcestefania"; // Tu nombre de usuario en GitHub
+    const username = "jcestefania";
     const url = `https://api.github.com/users/${username}`;
 
     // Llamada AJAX con jQuery

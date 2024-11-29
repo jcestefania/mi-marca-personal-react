@@ -23,6 +23,7 @@ Este proyecto incluye:
 
 - **React**: Librería principal para el desarrollo del proyecto.
 - **CSS**: Estilos personalizados para un diseño minimalista y responsivo.
+- **jQuery (AJAX)**: Para realizar solicitudes asíncronas y manejar la comunicación con el servidor.
 - **EmailJS**: Servicio para el envío de mensajes desde el formulario de contacto.
 - **GitHub Pages**: Para la publicación del proyecto en línea.
 
