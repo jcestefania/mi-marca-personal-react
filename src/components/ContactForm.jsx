@@ -27,7 +27,7 @@ function ContactForm() {
 
   return (
     <section id="contacta-conmigo">
-      <h2>Contacta conmigo</h2>
+      <h2>📬 Contacta conmigo</h2>
       <form ref={form} onSubmit={handleSubmit}>
         <label htmlFor="name">Nombre completo:</label>
         <input

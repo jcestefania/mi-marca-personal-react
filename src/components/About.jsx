@@ -27,7 +27,7 @@ function About() {
 
   return (
     <section id="sobre-mi">
-      <h1>Sobre mí</h1>
+      <h1>👨🏻‍💻 Sobre mí</h1>
       <div className="about-container">
         <img
           src={image}

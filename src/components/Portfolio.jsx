@@ -45,7 +45,7 @@ function Portfolio() {
 
   return (
     <section id="portfolio">
-      <h2>Portfolio</h2>
+      <h2>🚀 Portfolio</h2>
 
       {/* Perfil de GitHub */}
       {githubData ? (
@@ -64,6 +64,7 @@ function Portfolio() {
             Perfil de GitHub
           </h3>
           <p>Nombre: {githubData.name}</p>
+          <p>Nombre de usuario: <span className="username">@{githubData.login}</span></p>
           <p>Repositorios públicos: {githubData.public_repos}</p>
           <p>
             <a
@@ -84,8 +85,9 @@ function Portfolio() {
         <div className="project">
           <h3>Spotify Song Recommender</h3>
           <p>
-            SpotifySongRecommender is a C++ project for analyzing and
-            recommending songs...
+          SpotifySongRecommender is a C++ project for analyzing and recommending songs. It includes features 
+          like recommending songs and artists based on musical genres, and generating popularity rankings by 
+          artist or genre.
           </p>
           <a
             href="https://github.com/jcestefania/SpotifySongRecommender"
@@ -97,7 +99,10 @@ function Portfolio() {
         </div>
         <div className="project">
           <h3>Pathfinding Algorithm</h3>
-          <p>This Python project implements the A* algorithm...</p>
+          <p>This Python project implements the A* algorithm to find the optimal path in a randomly generated 2D 
+            matrix with obstacles. It allows users to choose between Manhattan and Euclidean distances for the 
+            pathfinding process. The matrix, along with the calculated path, is displayed on the console.
+          </p>
           <a
             href="https://github.com/jcestefania/Pathfinding-Algorithm-using-A-Star-in-a-2D-Matrix"
             target="_blank"
@@ -109,7 +114,9 @@ function Portfolio() {
         <div className="project">
           <h3>Machine Learning client project</h3>
           <p>
-            Análisis de datos para un cliente usando machine learning...
+          Data analysis for a client using machine learning. The project includes data preprocessing, 
+          feature selection, model training, hyperparameter tuning, and evaluation using metrics relevant to the 
+          client's business goals.
           </p>
           <a
             href="https://github.com/jcestefania/machine-learning-client-project"

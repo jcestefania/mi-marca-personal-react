@@ -28,6 +28,11 @@ section#sobre-mi h1{
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease; /* Agrega una transición suave */
+}
+
+.profile-photo:hover {
+    transform: scale(1.05); /* Aumenta el tamaño en un 5% */
 }
 
 .cv-section {

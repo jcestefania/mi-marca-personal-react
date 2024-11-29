@@ -61,6 +61,11 @@
     text-decoration: underline;
 }
 
+.username {
+    color: #0077b5; /* Azul estilo GitHub */
+    font-style: italic;
+}
+
 /* Proyectos */
 .projects {
     display: flex;
