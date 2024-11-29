@@ -7,20 +7,28 @@
     max-width: 900px;
 }
 
+/* Caja de Perfil de GitHub */
 .github-profile {
-    display: flex; /* Activa flexbox */
+    display: flex;
     flex-direction: column; /* Alinea los elementos en columna */
     justify-content: center; /* Centra verticalmente */
     align-items: center; /* Centra horizontalmente */
-    width: fit-content; /* Asegura que ocupe todo el ancho disponible */
+    width: fit-content; /* Ajusta al contenido */
     max-width: 850px; /* Limita el ancho máximo */
     margin: 30px auto; /* Centra la caja horizontalmente */
     padding: 40px; /* Espaciado interno */
     background: #f9f9f9; /* Fondo claro */
     border: 1px solid #ddd; /* Borde gris claro */
     border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra inicial */
     text-align: center; /* Alinea el texto en el centro */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Suaviza el efecto */
+    transform: perspective(400px); /* Perspectiva 3D */
+}
+
+.github-profile:hover {
+    transform: translateY(-5px); /* Eleva la caja 5px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
 }
 
 .github-profile h3 {
@@ -30,10 +38,10 @@
 }
 
 .github-logo {
-    width: 24px; /* Ajusta el tamaño del logo */
+    width: 24px; /* Tamaño del logo */
     height: auto; /* Mantén proporciones */
     margin-right: 8px; /* Espaciado entre el logo y el texto */
-    vertical-align: middle; /* Alinea el logo con el texto */
+    vertical-align: middle; /* Alinea verticalmente con el texto */
 }
 
 .github-profile p {
@@ -45,30 +53,37 @@
     color: #0077b5;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 20px; /* Separa el botón del texto anterior */
-    display: inline-block; /* Asegura que el margen se aplique correctamente */
+    margin-top: 20px; /* Separa el enlace del resto del contenido */
+    display: inline-block; /* Asegura que los márgenes funcionen */
 }
 
 .github-profile a:hover {
     text-decoration: underline;
 }
 
+/* Proyectos */
 .projects {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Permite que los proyectos se ajusten a varias líneas */
     gap: 20px;
     justify-content: center; /* Centra los proyectos */
 }
 
 .project {
-    flex: 1 1 calc(30% - 20px); /* Ajusta el ancho de los proyectos */
+    flex: 1 1 calc(30% - 20px); /* Ajusta el ancho del proyecto */
     background: #f9f9f9;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra inicial */
     text-align: center;
     margin-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Añade transición */
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Eleva ligeramente el proyecto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
 }
 
 .project h3 {
@@ -91,7 +106,6 @@
 .project a:hover {
     text-decoration: underline;
 }
-
 
 /* Ajuste para pantallas pequeñas */
 @media screen and (max-width: 768px) {

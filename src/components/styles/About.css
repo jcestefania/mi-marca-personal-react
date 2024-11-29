@@ -64,12 +64,13 @@ section#sobre-mi h1{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-bottom: 20px;
-    transition: transform 0.1s ease, box-shadow 0.1s ease; /* Transición suave */
-    transform: perspective(600px); /* Perspectiva para el efecto 3D */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Suaviza la transición */
+    transform: perspective(400px); /* Reduce la perspectiva para menos profundidad */
 }
 
 .linkedin-profile:hover {
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transform: translateY(-5px); /* Reduce la elevación de 10px a 5px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra más sutil */
 }
 
 .linkedin-profile h3 {
