@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mi-marca-personal-react/static/css/main.e46dbf7e.css",
-    "main.js": "/mi-marca-personal-react/static/js/main.1e67881d.js",
+    "main.css": "/mi-marca-personal-react/static/css/main.22f8828a.css",
+    "main.js": "/mi-marca-personal-react/static/js/main.7ca316bf.js",
     "static/media/image.png": "/mi-marca-personal-react/static/media/image.fc16b6e48ecd6d223453.png",
     "static/media/github_white.jpg": "/mi-marca-personal-react/static/media/github_white.ceb5247cda37a930d454.jpg",
     "static/media/github.png": "/mi-marca-personal-react/static/media/github.f11021803f68852df283.png",
     "static/media/linkedin.png": "/mi-marca-personal-react/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/mi-marca-personal-react/index.html",
-    "main.e46dbf7e.css.map": "/mi-marca-personal-react/static/css/main.e46dbf7e.css.map",
-    "main.1e67881d.js.map": "/mi-marca-personal-react/static/js/main.1e67881d.js.map"
+    "main.22f8828a.css.map": "/mi-marca-personal-react/static/css/main.22f8828a.css.map",
+    "main.7ca316bf.js.map": "/mi-marca-personal-react/static/js/main.7ca316bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.e46dbf7e.css",
-    "static/js/main.1e67881d.js"
+    "static/css/main.22f8828a.css",
+    "static/js/main.7ca316bf.js"
   ]
 }
