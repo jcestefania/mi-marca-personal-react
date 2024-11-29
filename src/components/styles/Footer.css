@@ -1,35 +1,78 @@
 footer {
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  footer .social-links {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    gap: 15px; /* Espaciado entre los logos */
-  }
-  
-  footer .social-icon {
-    width: 30px; /* Ajusta el tamaño según prefieras */
-    height: 30px;
-    transition: transform 0.2s ease-in-out; /* Efecto al pasar el ratón */
-  }
-  
-  footer .social-icon:hover {
-    transform: scale(1.1); /* Aumenta un poco el tamaño al pasar el ratón */
-  }
-  
-  footer p {
-    margin: 0;
-    font-size: 0.9rem;
-  }
-  
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .social-section {
+  text-align: center; /* Centra el contenido de esta sección */
+  margin-top: 40px; /* Espacio antes de la sección */
+}
+
+footer .social-section h3 {
+  font-size: 1.2rem; /* Tamaño del título */
+  margin-top: 30px;
+  margin-bottom: 10px; /* Espacio entre el título y el texto */
+  color: #fff; /* Blanco para mantener el contraste */
+}
+
+footer .social-section p {
+  font-size: 0.95rem; /* Tamaño del texto descriptivo */
+  margin-top: 10px; /* Espacio antes del texto */
+  color: #ccc; /* Gris claro para diferenciarlo del título */
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Mantiene el espaciado entre los enlaces */
+  /*margin: 20px 0; /* Espaciado superior e inferior para separar mejor */
+}
+
+footer ul li a {
+  color: #fff; /* Texto blanco */
+  text-decoration: underline; /* Subrayado permanente */
+  font-weight: bold; /* Texto en negrita */
+  padding: 5px 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición para el fondo */
+}
+
+footer ul li a:hover {
+  background-color: #333; /* Fondo gris oscuro al pasar el cursor */
+  color: #fff; /* Mantén el texto blanco */
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0; /* Incrementa el espacio alrededor de los logos */
+  margin-bottom: 10px;
+  gap: 15px; /* Espaciado entre los logos */
+}
+
+footer .social-icon {
+  width: 40px; /* Ajusta el tamaño de los logos */
+  height: 40px;
+  transition: transform 0.2s ease-in-out; /* Efecto al pasar el ratón */
+}
+
+footer .social-icon:hover {
+  transform: scale(1.1); /* Aumenta un poco el tamaño al pasar el ratón */
+}
+
+footer p {
+  margin-top: 30px; /* Añade espacio entre el texto de copyright y las otras secciones */
+  /*margin-bottom: 40px; /* Añade espacio debajo del texto de copyright */
+  font-size: 0.9rem; /* Tamaño de fuente reducido para el copyright */
+}
+
 
 @media (max-width: 768px) {
-    footer {
-        padding: 10px 5px;
-    }
+  footer {
+    padding: 10px 5px;
+  }
 }

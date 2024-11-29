@@ -4,12 +4,6 @@ h1, h2{
   color: black;
 }
 
-/* Estilos para encabezados */
-h3, h4, h5, h6 {
-  font-weight: bold;
-  color: #000000; /* Ajustar el color */
-}
-
 
 /* Diseño responsivo */
 @media (max-width: 768px) {
