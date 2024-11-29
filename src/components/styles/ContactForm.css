@@ -29,6 +29,16 @@ form input, form textarea {
     font-size: 1rem;
 }
 
+form input:hover,
+form textarea:hover,
+form input:focus,
+form textarea:focus {
+    border-color: #000000; /* Borde negro */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra alrededor del recuadro */
+    outline: none; /* Quita el borde azul por defecto */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Efecto suave */
+}
+
 form button {
     padding: 10px 20px;
     background-color: #000000;
