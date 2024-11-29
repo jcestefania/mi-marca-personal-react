@@ -7,6 +7,7 @@ function Footer() {
   return (
     <footer>
       <ul>
+        <li><a href="#top">Inicio</a></li>
         <li><a href="#sobre-mi">Sobre mí</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contacto">Contacto</a></li>
